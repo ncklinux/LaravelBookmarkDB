@@ -15,6 +15,7 @@ $ sudo pacman -S composer php
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install software-properties-common apt-transport-https php-cli unzip -y
 $ sudo add-apt-repository ppa:ondrej/php -y
+$ sudo apt update
 $ sudo apt install php8.1
 $ sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
@@ -26,8 +27,10 @@ $ git checkout -b YOUR_BRANCH_NAME
 # Check versions
 $ php -v && composer -V
 
-# List all PHP extensions
+# List & install PHP extensions
 $ php -m
+$ sudo pacman -S PACKAGE_NAME # Arch Linux PHP packages https://archlinux.org/packages/?sort=&q=php&maintainer=&flagged=
+$ sudo apt install PACKAGE_NAME # Ubuntu Ondrej PHP packages https://launchpad.net/~ondrej/+archive/ubuntu/php
 
 # Sail
 $ php artisan sail:install # Select MariaDB (recommended for performance) or MySQL
