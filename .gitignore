@@ -1,3 +1,4 @@
+# Laravel
 /node_modules
 /public/build
 /public/hot
@@ -16,3 +17,10 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+docker-compose.yml
+
+# macOS
+.DS_Store
+
+# Vim swap files
+*.swp

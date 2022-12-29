@@ -7,11 +7,30 @@ A bookmark organization database, written in Laravel to store any kind of bookma
 ## Build Setup
 
 ```bash
-# clone repository
+# Arch Linux - required packages
+$ sudo pacman -Syu
+$ sudo pacman -S composer php
+
+# Ubuntu - required packages
+$ sudo apt update && sudo apt upgrade -y
+$ sudo apt install software-properties-common apt-transport-https php-cli unzip -y
+$ sudo add-apt-repository ppa:ondrej/php -y
+$ sudo apt install php8.1
+$ sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
+
+# Clone repository
 $ git clone git@github.com:ncklinux/LaravelBookmarkDB.git
 $ cd LaravelBookmarkDB
 $ git checkout -b YOUR_BRANCH_NAME
 
+# Check versions
+$ php -v && composer -V
+
+# List all PHP extensions
+$ php -m
+
+# Sail
+$ php artisan sail:install # Select MariaDB (recommended for performance) or MySQL
 $ sail up
 
 ```
