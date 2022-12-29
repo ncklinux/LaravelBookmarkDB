@@ -42,6 +42,23 @@ $ sail up
 
 For a long time I've been looking for a bookmark database/manager that does all kinds of bookmarks, URLs, books, files, flags, icons, you name it. In order to clean up my Box (of keeping and maintaining multiple packages and even services), I decided to go ahead and create my own bookmark database/manager. I made a list of my needs and as I looked through the list, I discovered some breakthrough ideas and features that I would like to share through this project, stay tuned!
 
+## Docker Compose
+To manage MariaDB/MySQL database you can use [MySQL Command-Line Client](https://dev.mysql.com/doc/refman/8.0/en/mysql.html), [MySQL Workbench](https://www.mysql.com/products/workbench/) or [PHPMyAdmin](https://www.phpmyadmin.net/). If you want to use PHPMyAdmin you need to add the following (after `mariadb:`) to your [docker-compose.yml](https://docs.docker.com/compose/), `sail up` and then access it from [http://localhost:8081](http://localhost:8081)
+```bash
+myadmin:
+    image: 'phpmyadmin:latest'
+    ports:
+        - 8081:80
+    environment:
+        MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
+    links:
+        - "mariadb:db"
+    depends_on:
+        - mariadb
+    networks:
+        - sail
+```
+
 ## License
 
 GNU General Public License v3.0 - See the [LICENSE](https://github.com/ncklinux/LaravelBookmarkDB/blob/master/LICENSE) file in this project for details.
