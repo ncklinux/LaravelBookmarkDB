@@ -9,7 +9,7 @@ A bookmark organization database, written in Laravel to store any kind of bookma
 ```bash
 # Arch Linux - required packages
 $ sudo pacman -Syu
-$ sudo pacman -S composer php
+$ sudo pacman -S php composer
 
 # Ubuntu - required packages
 $ sudo apt update && sudo apt upgrade -y
@@ -36,7 +36,7 @@ $ sudo apt install PACKAGE_NAME # Ubuntu Ondrej PHP packages https://launchpad.n
 $ php artisan sail:install # Select MariaDB (recommended for performance) or MySQL
 $ sail up
 $ yarn install && yarn dev # On new (2nd) CLI tab
-$ sail php artisan migrate # On new (3rd) CLI tab
+$ sail artisan migrate # On new (3rd) CLI tab
 
 ```
 
@@ -67,6 +67,12 @@ myadmin:
     networks:
         - sail
 ```
+
+## Yarn package manager
+
+This project uses [Yarn](https://yarnpkg.com) for the front-end package management, in order to solve consistency, security, and performance problems.
+
+Add and star the project [laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) with composer `composer require barryvdh/laravel-debugbar --dev`, is one of the most useful Laravel packages for and **only during development**.
 
 ## License
 
