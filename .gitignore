@@ -19,6 +19,8 @@ yarn-error.log
 /.vscode
 docker-compose.yml
 storage/debugbar/
+package-lock.json
+yarn.lock
 
 # macOS
 .DS_Store
