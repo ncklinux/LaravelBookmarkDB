@@ -68,11 +68,11 @@ myadmin:
         - sail
 ```
 
+Add and star the project [laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) with composer `composer require barryvdh/laravel-debugbar --dev`, is one of the most useful Laravel packages for and **only during development**.
+
 ## Yarn package manager
 
 This project uses [Yarn](https://yarnpkg.com) for the front-end package management, in order to solve consistency, security, and performance problems.
-
-Add and star the project [laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) with composer `composer require barryvdh/laravel-debugbar --dev`, is one of the most useful Laravel packages for and **only during development**.
 
 ## License
 
