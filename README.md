@@ -42,8 +42,15 @@ $ sail up
 
 For a long time I've been looking for a bookmark database/manager that does all kinds of bookmarks, URLs, books, files, flags, icons, you name it. In order to clean up my Box (of keeping and maintaining multiple packages and even services), I decided to go ahead and create my own bookmark database/manager. I made a list of my needs and as I looked through the list, I discovered some breakthrough ideas and features that I would like to share through this project, stay tuned!
 
+## Laravel Debugbar
+
+Add and star the project [laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) with composer `composer require barryvdh/laravel-debugbar --dev`, is one of the most useful Laravel packages for and **only during development**.
+![Screenshot](https://user-images.githubusercontent.com/973269/79428890-196cc680-7fc7-11ea-8229-189f5eac9009.png)
+
 ## Docker Compose
+
 To manage MariaDB/MySQL database you can use [MySQL Command-Line Client](https://dev.mysql.com/doc/refman/8.0/en/mysql.html), [MySQL Workbench](https://www.mysql.com/products/workbench/) or [PHPMyAdmin](https://www.phpmyadmin.net/). If you want to use PHPMyAdmin you need to add the following (after `mariadb:`) to your [docker-compose.yml](https://docs.docker.com/compose/), `sail up` and then access it from [http://localhost:8081](http://localhost:8081)
+
 ```bash
 myadmin:
     image: 'phpmyadmin:latest'

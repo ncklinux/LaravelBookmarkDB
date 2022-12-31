@@ -18,6 +18,7 @@ yarn-error.log
 /.idea
 /.vscode
 docker-compose.yml
+storage/debugbar/
 
 # macOS
 .DS_Store
