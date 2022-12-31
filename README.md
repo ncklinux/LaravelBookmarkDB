@@ -36,7 +36,7 @@ $ sudo apt install PACKAGE_NAME # Ubuntu Ondrej PHP packages https://launchpad.n
 $ php artisan sail:install # Select MariaDB (recommended for performance) or MySQL
 $ sail up
 $ yarn install && yarn dev # On new (2nd) CLI tab
-$ sail php artisan migrate # On new (3rd) CLI tab
+$ sail artisan migrate # On new (3rd) CLI tab
 
 ```
 
