@@ -42,7 +42,7 @@ $ sail artisan migrate # On new (3rd) CLI tab
 
 ## Motivation
 
-For a long time I've been looking for a bookmark database/manager that does all kinds of bookmarks, URLs, books, files, flags, icons, you name it. In order to clean up my Box (of keeping and maintaining multiple packages and even services), I decided to go ahead and create my own bookmark database/manager. I made a list of my needs and as I looked through the list, I discovered some breakthrough ideas and features that I would like to share through this project, stay tuned!
+For a long time I've been looking for a bookmark database/manager that does all kinds of bookmarks, URLs, books, files, flags, tags, icons, you name it. In order to clean up my Box (of keeping and maintaining multiple packages and even services), I decided to go ahead and create my own bookmark database/manager. I made a list of my needs and as I looked through the list, I discovered some breakthrough ideas and features that I would like to share through this project, stay tuned!
 
 ## Laravel Debugbar
 
