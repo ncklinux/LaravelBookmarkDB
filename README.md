@@ -46,7 +46,7 @@ For a long time I've been looking for a bookmark database/manager that does all 
 
 ## Laravel Debugbar
 
-Add and star the project [laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) with composer `composer require barryvdh/laravel-debugbar --dev`, is one of the most useful Laravel packages for and **only during development**.
+Add (and star) the project [laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) with composer `composer require barryvdh/laravel-debugbar --dev`, is one of the most useful Laravel packages, for and **only during development**.
 ![Screenshot](https://user-images.githubusercontent.com/973269/79428890-196cc680-7fc7-11ea-8229-189f5eac9009.png)
 
 ## Docker Compose
@@ -67,8 +67,6 @@ myadmin:
     networks:
         - sail
 ```
-
-Add (and star) the project [laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) with composer `composer require barryvdh/laravel-debugbar --dev`, is one of the most useful Laravel packages, for and **only during development**.
 
 ## Yarn
 
