@@ -72,6 +72,10 @@ myadmin:
 
 This project uses [Yarn](https://yarnpkg.com) for the front-end package management, in order to solve consistency, security, and performance problems.
 
+## TypeScript
+
+The front-end of this project uses [TypeScript](https://www.typescriptlang.org), the "typed superset of JavaScript that compiles to plain JavaScript". The main benefit is to support IDEs and code editors to provide a type safe environment for highlighting common coding errors. All interfaces are defined in `./resources/js/types.d.ts`.
+
 ## License
 
 GNU General Public License v3.0 - See the [LICENSE](https://github.com/ncklinux/LaravelBookmarkDB/blob/master/LICENSE) file in this project for details.
