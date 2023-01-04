@@ -4,8 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-import './bootstrap';
-import { createApp } from 'vue';
+import "./bootstrap";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import { createApp } from "vue";
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
@@ -15,8 +16,10 @@ import { createApp } from 'vue';
 
 const app = createApp({});
 
-import ExampleComponent from './components/AddBookmark.vue';
-app.component('example-component', ExampleComponent);
+import AddBookmark from "./components/AddBookmark.vue";
+import AddFolder from "./components/AddFolder.vue";
+app.component("add-bookmark", AddBookmark);
+app.component("add-folder", AddFolder);
 
 /**
  * The following block of code may be used to automatically register your
@@ -36,4 +39,4 @@ app.component('example-component', ExampleComponent);
  * scaffolding. Otherwise, you will need to add an element yourself.
  */
 
-app.mount('#app');
+app.mount("#app");

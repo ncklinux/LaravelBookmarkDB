@@ -20,12 +20,12 @@
                     <div class="col">
                         <div class="input-group">
                             <span class="input-group-text" id="basic-addon1"
-                                ><i class="bi bi-bookmark"></i
+                                ><i class="bi bi-folder"></i
                             ></span>
                             <input
                                 type="text"
                                 class="form-control"
-                                :placeholder="this.language.bookmark"
+                                :placeholder="this.language.folder"
                                 aria-describedby="basic-addon1"
                             />
                         </div>

@@ -19,8 +19,11 @@
                 </div>
 
             </div>
-            <div class="col-12 mt-4">
-                <example-component />
+            <div class="col-xs-12 col-sm-6 mt-4">
+                <add-folder :language="{{ json_encode(__('components.new_folder')) }}" />
+            </div>
+            <div class="col-xs-12 col-sm-6 mt-4">
+                <add-bookmark :language="{{ json_encode(__('components.new_bookmark')) }}" />
             </div>
         </div>
     </div>
