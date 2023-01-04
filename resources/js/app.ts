@@ -16,8 +16,10 @@ import { createApp } from "vue";
 
 const app = createApp({});
 
-import ExampleComponent from './components/AddBookmark.vue';
-app.component('example-component', ExampleComponent);
+import AddBookmark from "./components/AddBookmark.vue";
+import AddFolder from "./components/AddFolder.vue";
+app.component("add-bookmark", AddBookmark);
+app.component("add-folder", AddFolder);
 
 /**
  * The following block of code may be used to automatically register your
