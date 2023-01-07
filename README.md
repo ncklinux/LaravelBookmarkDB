@@ -41,7 +41,7 @@ $ sail artisan migrate # On new (3rd) CLI tab
 
 ## Motivation
 
-For a long time I've been looking for a bookmark database/manager that does all kinds of bookmarks, URLs, books, files, flags, tags, icons, you name it. In order to clean up my Box (of keeping and maintaining multiple packages and even services), I decided to go ahead and create my own bookmark database/manager. I made a list of my needs and as I looked through the list, I discovered some breakthrough ideas and features that I would like to share through this project, stay tuned!
+For a long time I've been looking for a bookmark database/manager that does all kinds of bookmarks, URLs, books, files, flags, tags, icons, you name it. In order to clean up my Box (of keeping and maintaining multiple packages and even services), I decided to go ahead and create my own bookmark database/manager. I made a list of my needs and as I looked through the list, I discovered some breakthrough ideas and features that I would like to share through this project.
 
 ## Laravel Debugbar
 
@@ -70,6 +70,10 @@ myadmin:
 ## Yarn
 
 This project uses [Yarn](https://yarnpkg.com) for the front-end package management, in order to solve consistency, security, and performance problems.
+
+## Composer
+
+This project uses [Composer](https://getcomposer.org) for dependency management in PHP, it allows you to declare the libraries on which your project depends and will manage (install/update) them for you, use `composer show -i` to list all installed libraries/packages.
 
 ## TypeScript
 
