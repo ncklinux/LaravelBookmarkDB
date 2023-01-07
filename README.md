@@ -67,13 +67,13 @@ myadmin:
         - sail
 ```
 
-## Yarn
-
-This project uses [Yarn](https://yarnpkg.com) for the front-end package management, in order to solve consistency, security, and performance problems.
-
 ## Composer
 
 This project uses [Composer](https://getcomposer.org) for dependency management in PHP, it allows you to declare the libraries on which your project depends and will manage (install/update) them for you, use `composer show -i` to list all installed libraries/packages.
+
+## Yarn
+
+This project uses [Yarn](https://yarnpkg.com) for the front-end package management, in order to solve consistency, security, and performance problems.
 
 ## TypeScript
 
