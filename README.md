@@ -111,7 +111,7 @@ This repository follows the [Conventional Commits](https://www.conventionalcommi
 php artisan sail:install # Select MariaDB (recommended for performance) or MySQL
 ```
 
-:no_entry_sign:If the UI is not displayed correctly, e.g. no style sheet etc, open a new CLI tab and run:
+:no_entry_sign: If the UI is not displayed correctly, e.g. without stylesheets, open a new CLI tab and run:
 
 ```bash
 sail yarn dev
