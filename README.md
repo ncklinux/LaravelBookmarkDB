@@ -37,7 +37,6 @@ $ php artisan sail:install # Select MariaDB (recommended for performance) or MyS
 $ sail up
 $ sail yarn install && sail yarn dev # On new (2nd) CLI tab
 $ sail artisan migrate # On new (3rd) CLI tab
-
 ```
 
 ## Motivation
@@ -98,6 +97,20 @@ This repository follows the [Conventional Commits](https://www.conventionalcommi
 [optional body]
 
 [optional footer(s)]
+```
+
+## Troubleshooting
+
+:no_entry_sign: No configuration file provided: not found
+
+```bash
+php artisan sail:install # Select MariaDB (recommended for performance) or MySQL
+```
+
+:no_entry_sign:If the UI is not displayed correctly, e.g. no style sheet etc, open a new CLI tab and run:
+
+```bash
+sail yarn dev
 ```
 
 ## About Laravel
