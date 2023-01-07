@@ -37,12 +37,11 @@ $ php artisan sail:install # Select MariaDB (recommended for performance) or MyS
 $ sail up
 $ sail yarn install && sail yarn dev # On new (2nd) CLI tab
 $ sail artisan migrate # On new (3rd) CLI tab
-
 ```
 
 ## Motivation
 
-For a long time I've been looking for a bookmark database/manager that does all kinds of bookmarks, URLs, books, files, flags, tags, icons, you name it. In order to clean up my Box (of keeping and maintaining multiple packages and even services), I decided to go ahead and create my own bookmark database/manager. I made a list of my needs and as I looked through the list, I discovered some breakthrough ideas and features that I would like to share through this project, stay tuned!
+For a long time I've been looking for a bookmark database/manager that does all kinds of bookmarks, URLs, books, files, flags, tags, icons, you name it. In order to clean up my Box (of keeping and maintaining multiple packages and even services), I decided to go ahead and create my own bookmark database/manager. I made a list of my needs and as I looked through the list, I discovered some breakthrough ideas and features that I would like to share through this project.
 
 ## Laravel Debugbar
 
@@ -67,6 +66,10 @@ myadmin:
     networks:
         - sail
 ```
+
+## Composer
+
+This project uses [Composer](https://getcomposer.org) for dependency management in PHP, it allows you to declare the libraries on which your project depends and will manage (install/update) them for you, use `composer show -i` to list all installed libraries/packages.
 
 ## Yarn
 
@@ -98,6 +101,20 @@ This repository follows the [Conventional Commits](https://www.conventionalcommi
 [optional body]
 
 [optional footer(s)]
+```
+
+## Troubleshooting
+
+:no_entry_sign: No configuration file provided: not found
+
+```bash
+php artisan sail:install # Select MariaDB (recommended for performance) or MySQL
+```
+
+:no_entry_sign:If the UI is not displayed correctly, e.g. no style sheet etc, open a new CLI tab and run:
+
+```bash
+sail yarn dev
 ```
 
 ## About Laravel
