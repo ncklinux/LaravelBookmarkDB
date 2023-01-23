@@ -123,7 +123,7 @@ sail yarn dev
 
 ## Note
 
-I will keep and maintain this project as open source forever! [Watch this repo](https://github.com/ncklinux/LaravelBookmarkDB/subscription), :star: it and follow me on [GitHub](https://github.com/ncklinux) and [Twitter](https://twitter.com/ncklinux)
+I will keep and maintain this project as open source forever! [Watch it](https://github.com/ncklinux/LaravelBookmarkDB/subscription), give it a :star: and follow me on [GitHub](https://github.com/ncklinux) and [Twitter](https://twitter.com/ncklinux)
 
 ## Resources
 
